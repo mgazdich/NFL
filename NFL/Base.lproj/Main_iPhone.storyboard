@@ -1,23 +1,176 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4451" systemVersion="13A461" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="3fR-Lc-PFV">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3676"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <!--Teams View Controller - NFL-->
+        <scene sceneID="Gua-Ab-qzC">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                <tableViewController id="OcQ-zv-uay" customClass="TeamsViewController" sceneMemberID="viewController">
+                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="47O-UQ-tq8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="detailButton" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="teamCellView" rowHeight="60" id="nPd-6q-H37" customClass="TeamCell">
+                                <rect key="frame" x="0.0" y="86" width="320" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nPd-6q-H37" id="AN7-fb-dmr">
+                                    <rect key="frame" x="0.0" y="0.0" width="273" height="59"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="49ers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66R-Gd-eAu">
+                                            <rect key="frame" x="11" y="19" width="76" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="San Francisco 49ers" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A7N-ZO-3dq">
+                                            <rect key="frame" x="136" y="0.0" width="132" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NFC West" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dOa-C0-nPE">
+                                            <rect key="frame" x="136" y="19" width="132" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Candlestick Park" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdR-5A-ZTh">
+                                            <rect key="frame" x="136" y="38" width="132" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="49ers" translatesAutoresizingMaskIntoConstraints="NO" id="i04-zW-wCh">
+                                            <rect key="frame" x="89" y="12" width="46" height="35"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="divisionLabel" destination="dOa-C0-nPE" id="NmY-Yk-hUl"/>
+                                    <outlet property="fullNameLabel" destination="A7N-ZO-3dq" id="hq8-Ic-S6v"/>
+                                    <outlet property="nameLabel" destination="66R-Gd-eAu" id="gXh-AK-Uiv"/>
+                                    <outlet property="stadiumLabel" destination="JdR-5A-ZTh" id="EHC-AJ-4yW"/>
+                                    <outlet property="teamImageView" destination="i04-zW-wCh" id="KKc-sh-LLw"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="NFL" id="axr-7v-Khd"/>
+                    <connections>
+                        <segue destination="ybM-ur-3zk" kind="push" identifier="homePage" id="y35-4L-tiQ"/>
+                        <segue destination="aQO-c7-Jbd" kind="push" identifier="stadium" id="u1R-Fq-zdz"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LSH-4n-u1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="398" y="-8"/>
+        </scene>
+        <!--Home Page View Controller - San Fransico 49ers-->
+        <scene sceneID="mLR-8C-Z4x">
+            <objects>
+                <viewController id="ybM-ur-3zk" customClass="HomePageViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kjp-Pf-bEx"/>
+                        <viewControllerLayoutGuide type="bottom" id="LjE-qw-kvY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UHG-0t-eBK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5nY-nS-bpd">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="ybM-ur-3zk" id="XID-3g-1UQ"/>
+                                </connections>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="5nY-nS-bpd" secondAttribute="bottom" id="E9s-z5-0fG"/>
+                            <constraint firstItem="5nY-nS-bpd" firstAttribute="top" secondItem="UHG-0t-eBK" secondAttribute="top" id="cSG-g2-bbM"/>
+                            <constraint firstItem="5nY-nS-bpd" firstAttribute="leading" secondItem="UHG-0t-eBK" secondAttribute="leading" id="e0U-01-Hrn"/>
+                            <constraint firstAttribute="trailing" secondItem="5nY-nS-bpd" secondAttribute="trailing" id="t5Z-7d-AAj"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="San Fransico 49ers" id="K9K-TB-1O9"/>
+                    <connections>
+                        <outlet property="webView" destination="5nY-nS-bpd" id="WkE-dJ-CFy"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CaH-4G-ohM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1043" y="-383"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Af9-KZ-Wqq">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="3fR-Lc-PFV" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="axi-E6-Znc">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OcQ-zv-uay" kind="relationship" relationship="rootViewController" id="ddP-md-Bop"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HEz-HE-XIy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-136" y="-8"/>
+        </scene>
+        <!--Stadium View Controller - San Francisco 49ers-->
+        <scene sceneID="fCs-8T-3qa">
+            <objects>
+                <viewController id="aQO-c7-Jbd" customClass="StadiumViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RSs-Af-W90"/>
+                        <viewControllerLayoutGuide type="bottom" id="RUx-Tx-Mi9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Rdz-tU-H7e">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SQh-S1-xJW">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="aQO-c7-Jbd" id="lmY-EJ-Ej5"/>
+                                </connections>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SQh-S1-xJW" firstAttribute="leading" secondItem="Rdz-tU-H7e" secondAttribute="leading" id="KGB-US-DDh"/>
+                            <constraint firstAttribute="trailing" secondItem="SQh-S1-xJW" secondAttribute="trailing" id="WsY-Ts-ufu"/>
+                            <constraint firstAttribute="bottom" secondItem="SQh-S1-xJW" secondAttribute="bottom" id="m8H-LD-IQR"/>
+                            <constraint firstItem="SQh-S1-xJW" firstAttribute="top" secondItem="Rdz-tU-H7e" secondAttribute="top" id="w5E-g4-Upe"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="San Francisco 49ers" id="wyH-2Q-8LE"/>
+                    <connections>
+                        <outlet property="webView" destination="SQh-S1-xJW" id="US4-7B-0Ky"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JHu-eO-1eS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1043" y="373"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="49ers" width="32" height="32"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

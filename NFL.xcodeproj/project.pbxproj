@@ -15,13 +15,19 @@
 		D82511CC18138315001D0EFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D82511CB18138315001D0EFF /* AppDelegate.m */; };
 		D82511CF18138315001D0EFF /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82511CD18138315001D0EFF /* Main_iPhone.storyboard */; };
 		D82511D218138315001D0EFF /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82511D018138315001D0EFF /* Main_iPad.storyboard */; };
-		D82511D518138315001D0EFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82511D418138315001D0EFF /* ViewController.m */; };
+		D82511D518138315001D0EFF /* TeamsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82511D418138315001D0EFF /* TeamsViewController.m */; };
 		D82511D718138315001D0EFF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82511D618138315001D0EFF /* Images.xcassets */; };
 		D82511DE18138315001D0EFF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82511DD18138315001D0EFF /* XCTest.framework */; };
 		D82511DF18138315001D0EFF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82511BB18138315001D0EFF /* Foundation.framework */; };
 		D82511E018138315001D0EFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D82511BF18138315001D0EFF /* UIKit.framework */; };
 		D82511E818138315001D0EFF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D82511E618138315001D0EFF /* InfoPlist.strings */; };
 		D82511EA18138315001D0EFF /* NFLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D82511E918138315001D0EFF /* NFLTests.m */; };
+		D82511F418138B8E001D0EFF /* NFL.plist in Resources */ = {isa = PBXBuildFile; fileRef = D82511F318138B8E001D0EFF /* NFL.plist */; };
+		D82511F71813B925001D0EFF /* TeamCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D82511F61813B925001D0EFF /* TeamCell.m */; };
+		D82511FA18147D19001D0EFF /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D82511F918147D19001D0EFF /* HomePageViewController.m */; };
+		D8C82ECE18148485007F3B29 /* StadiumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C82ECD18148485007F3B29 /* StadiumViewController.m */; };
+		D8C82ED118148A69007F3B29 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C82ED018148A69007F3B29 /* MasterViewController.m */; };
+		D8C82ED418148EF8007F3B29 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8C82ED318148EF8007F3B29 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,14 +53,25 @@
 		D82511CB18138315001D0EFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D82511CE18138315001D0EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		D82511D118138315001D0EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		D82511D318138315001D0EFF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D82511D418138315001D0EFF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D82511D318138315001D0EFF /* TeamsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TeamsViewController.h; sourceTree = "<group>"; };
+		D82511D418138315001D0EFF /* TeamsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TeamsViewController.m; sourceTree = "<group>"; };
 		D82511D618138315001D0EFF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D82511DC18138315001D0EFF /* NFLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82511DD18138315001D0EFF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D82511E518138315001D0EFF /* NFLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NFLTests-Info.plist"; sourceTree = "<group>"; };
 		D82511E718138315001D0EFF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D82511E918138315001D0EFF /* NFLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NFLTests.m; sourceTree = "<group>"; };
+		D82511F318138B8E001D0EFF /* NFL.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NFL.plist; sourceTree = "<group>"; };
+		D82511F51813B925001D0EFF /* TeamCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamCell.h; sourceTree = "<group>"; };
+		D82511F61813B925001D0EFF /* TeamCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamCell.m; sourceTree = "<group>"; };
+		D82511F818147D19001D0EFF /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		D82511F918147D19001D0EFF /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		D8C82ECC18148485007F3B29 /* StadiumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StadiumViewController.h; sourceTree = "<group>"; };
+		D8C82ECD18148485007F3B29 /* StadiumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StadiumViewController.m; sourceTree = "<group>"; };
+		D8C82ECF18148A69007F3B29 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D8C82ED018148A69007F3B29 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D8C82ED218148EF8007F3B29 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D8C82ED318148EF8007F3B29 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,14 +131,25 @@
 		D82511C118138315001D0EFF /* NFL */ = {
 			isa = PBXGroup;
 			children = (
+				D82511F318138B8E001D0EFF /* NFL.plist */,
 				D82511CA18138315001D0EFF /* AppDelegate.h */,
 				D82511CB18138315001D0EFF /* AppDelegate.m */,
 				D82511CD18138315001D0EFF /* Main_iPhone.storyboard */,
 				D82511D018138315001D0EFF /* Main_iPad.storyboard */,
-				D82511D318138315001D0EFF /* ViewController.h */,
-				D82511D418138315001D0EFF /* ViewController.m */,
+				D82511D318138315001D0EFF /* TeamsViewController.h */,
+				D82511D418138315001D0EFF /* TeamsViewController.m */,
 				D82511D618138315001D0EFF /* Images.xcassets */,
 				D82511C218138315001D0EFF /* Supporting Files */,
+				D82511F51813B925001D0EFF /* TeamCell.h */,
+				D82511F61813B925001D0EFF /* TeamCell.m */,
+				D82511F818147D19001D0EFF /* HomePageViewController.h */,
+				D82511F918147D19001D0EFF /* HomePageViewController.m */,
+				D8C82ECC18148485007F3B29 /* StadiumViewController.h */,
+				D8C82ECD18148485007F3B29 /* StadiumViewController.m */,
+				D8C82ECF18148A69007F3B29 /* MasterViewController.h */,
+				D8C82ED018148A69007F3B29 /* MasterViewController.m */,
+				D8C82ED218148EF8007F3B29 /* DetailViewController.h */,
+				D8C82ED318148EF8007F3B29 /* DetailViewController.m */,
 			);
 			path = NFL;
 			sourceTree = "<group>";
@@ -233,6 +261,7 @@
 			files = (
 				D82511D218138315001D0EFF /* Main_iPad.storyboard in Resources */,
 				D82511D718138315001D0EFF /* Images.xcassets in Resources */,
+				D82511F418138B8E001D0EFF /* NFL.plist in Resources */,
 				D82511CF18138315001D0EFF /* Main_iPhone.storyboard in Resources */,
 				D82511C618138315001D0EFF /* InfoPlist.strings in Resources */,
 			);
@@ -253,9 +282,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D82511D518138315001D0EFF /* ViewController.m in Sources */,
+				D82511F71813B925001D0EFF /* TeamCell.m in Sources */,
+				D82511D518138315001D0EFF /* TeamsViewController.m in Sources */,
+				D8C82ECE18148485007F3B29 /* StadiumViewController.m in Sources */,
+				D8C82ED418148EF8007F3B29 /* DetailViewController.m in Sources */,
+				D82511FA18147D19001D0EFF /* HomePageViewController.m in Sources */,
 				D82511CC18138315001D0EFF /* AppDelegate.m in Sources */,
 				D82511C818138315001D0EFF /* main.m in Sources */,
+				D8C82ED118148A69007F3B29 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +508,7 @@
 				D82511EF18138315001D0EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D82511F018138315001D0EFF /* Build configuration list for PBXNativeTarget "NFLTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +517,7 @@
 				D82511F218138315001D0EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

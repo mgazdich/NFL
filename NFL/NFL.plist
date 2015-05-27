@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>49ers</key>
+	<array>
+		<string>49ers.png</string>
+		<string>San Francisco 49ers</string>
+		<string>NFC West</string>
+		<string>Candlestick Park</string>
+		<string>http://www.49ers.com</string>
+	</array>
+	<key>Bears</key>
+	<array>
+		<string>bears.png</string>
+		<string>Chicago Bears</string>
+		<string>NFC North</string>
+		<string>Soldier Field</string>
+		<string>http://www.chicagobears.com</string>
+	</array>
+	<key>Bengals</key>
+	<array>
+		<string>bengals.png</string>
+		<string>Cincinnati Bengals</string>
+		<string>AFC North</string>
+		<string>Paul Brown Stadium</string>
+		<string>http://www.bengals.com</string>
+	</array>
+	<key>Bills</key>
+	<array>
+		<string>bills.png</string>
+		<string>Buffalo Bills</string>
+		<string>AFC East</string>
+		<string>Ralph Wilson Stadium</string>
+		<string>http://www.buffalobills.com</string>
+	</array>
+	<key>Broncos</key>
+	<array>
+		<string>broncos.png</string>
+		<string>Denver Broncos</string>
+		<string>AFC West</string>
+		<string>Sports Authority Field</string>
+		<string>http://www.denverbroncos.com</string>
+	</array>
+	<key>Browns</key>
+	<array>
+		<string>browns.png</string>
+		<string>Cleveland Browns</string>
+		<string>AFC North</string>
+		<string>FirstEnergy Stadium</string>
+		<string>http://www.clevelandbrowns.com</string>
+	</array>
+	<key>Buccaneers</key>
+	<array>
+		<string>buccaneers.png</string>
+		<string>Tampa Bay Buccaneers</string>
+		<string>NFC South</string>
+		<string>Raymond James Stadium</string>
+		<string>http://www.buccaneers.com</string>
+	</array>
+	<key>Cardinals</key>
+	<array>
+		<string>cardinals.png</string>
+		<string>Arizona Cardinals</string>
+		<string>NFC West</string>
+		<string>University of Phoenix Stadium</string>
+		<string>http://www.azcardinals.com</string>
+	</array>
+	<key>Chargers</key>
+	<array>
+		<string>chargers.png</string>
+		<string>San Diego Chargers</string>
+		<string>AFC West</string>
+		<string>Qualcomm Stadium</string>
+		<string>http://www.chargers.com</string>
+	</array>
+	<key>Chiefs</key>
+	<array>
+		<string>chiefs.png</string>
+		<string>Kansas City Chiefs</string>
+		<string>AFC West</string>
+		<string>Arrowhead Stadium</string>
+		<string>http://www.kcchiefs.com</string>
+	</array>
+	<key>Colts</key>
+	<array>
+		<string>colts.png</string>
+		<string>Indianapolis Colts</string>
+		<string>AFC South</string>
+		<string>Lucas Oil Stadium</string>
+		<string>http://www.colts.com</string>
+	</array>
+	<key>Cowboys</key>
+	<array>
+		<string>cowboys.png</string>
+		<string>Dallas Cowboys</string>
+		<string>NFC East</string>
+		<string>AT&amp;T Stadium</string>
+		<string>http://www.dallascowboys.com</string>
+	</array>
+	<key>Dolphins</key>
+	<array>
+		<string>dolphins.png</string>
+		<string>Miami Dolphins</string>
+		<string>AFC East</string>
+		<string>Sun Life Stadium</string>
+		<string>http://www.miamidolphins.com</string>
+	</array>
+	<key>Eagles</key>
+	<array>
+		<string>eagles.png</string>
+		<string>Philadelphia Eagles</string>
+		<string>NFC East</string>
+		<string>Lincoln Financial Field</string>
+		<string>http://www.philadelphiaeagles.com</string>
+	</array>
+	<key>Falcons</key>
+	<array>
+		<string>falcons.png</string>
+		<string>Atlanta Falcons</string>
+		<string>NFC South</string>
+		<string>Georgia Dome</string>
+		<string>http://www.atlantafalcons.com</string>
+	</array>
+	<key>Giants</key>
+	<array>
+		<string>giants.png</string>
+		<string>New York Giants</string>
+		<string>NFC East</string>
+		<string>MetLife Stadium</string>
+		<string>http://www.giants.com</string>
+	</array>
+	<key>Jaguars</key>
+	<array>
+		<string>jaguars.png</string>
+		<string>Jackonsville Jaguars</string>
+		<string>AFC South</string>
+		<string>EverBank Field</string>
+		<string>http://www.jaguars.com</string>
+	</array>
+	<key>Jets</key>
+	<array>
+		<string>jets.png</string>
+		<string>New York Jets</string>
+		<string>AFC East</string>
+		<string>MetLife Stadium</string>
+		<string>http://www.newyorkjets.com</string>
+	</array>
+	<key>Lions</key>
+	<array>
+		<string>lions.png</string>
+		<string>Detroit Lions</string>
+		<string>NFC North</string>
+		<string>Ford Field</string>
+		<string>http://www.detroitlions.com</string>
+	</array>
+	<key>Packers</key>
+	<array>
+		<string>packers.png</string>
+		<string>Green Bay Packers</string>
+		<string>NFC North</string>
+		<string>Lambeau Field</string>
+		<string>http://www.packers.com</string>
+	</array>
+	<key>Panthers</key>
+	<array>
+		<string>panthers.png</string>
+		<string>Carolina Panthers</string>
+		<string>NFC South</string>
+		<string>Bank of America Stadium</string>
+		<string>http://www.panthers.com</string>
+	</array>
+	<key>Patriots</key>
+	<array>
+		<string>patriots.png</string>
+		<string>New Englands Patriots</string>
+		<string>AFC East</string>
+		<string>Gillette Stadium</string>
+		<string>http://www.patriots.com</string>
+	</array>
+	<key>Raiders</key>
+	<array>
+		<string>raiders.png</string>
+		<string>Oakland Raiders</string>
+		<string>AFC West</string>
+		<string>O.co Coliseum</string>
+		<string>http://www.raiders.com</string>
+	</array>
+	<key>Rams</key>
+	<array>
+		<string>rams.png</string>
+		<string>St. Louis Rams</string>
+		<string>NFC West</string>
+		<string>Edward Jones Dome</string>
+		<string>http://www.stlouisrams.com</string>
+	</array>
+	<key>Ravens</key>
+	<array>
+		<string>ravens.png</string>
+		<string>Baltimore Ravens</string>
+		<string>AFC North</string>
+		<string>M&amp;T Bank Stadium</string>
+		<string>http://www.baltimoreravens.com</string>
+	</array>
+	<key>Redskins</key>
+	<array>
+		<string>redskins.png</string>
+		<string>Washington Redskins</string>
+		<string>NFC East</string>
+		<string>FedEx Field</string>
+		<string>http://www.redskins.com</string>
+	</array>
+	<key>Saints</key>
+	<array>
+		<string>saints.png</string>
+		<string>New Orleans Saints</string>
+		<string>NFC South</string>
+		<string>Mercedes-Benz Superdome</string>
+		<string>http://www.neworleanssaints.com</string>
+	</array>
+	<key>Seahawks</key>
+	<array>
+		<string>seahawks.png</string>
+		<string>Seattle Seahawks</string>
+		<string>NFC West</string>
+		<string>CenturyLink Field</string>
+		<string>http://www.seahawks.com</string>
+	</array>
+	<key>Steelers</key>
+	<array>
+		<string>steelers.png</string>
+		<string>Pittsburgh Steelers</string>
+		<string>AFC North</string>
+		<string>Heinz Field</string>
+		<string>http://www.steelers.com</string>
+	</array>
+	<key>Texans</key>
+	<array>
+		<string>texans.png</string>
+		<string>Houstons Texans</string>
+		<string>AFC South</string>
+		<string>Reliant Stadium</string>
+		<string>http://www.houstontexans.com</string>
+	</array>
+	<key>Titans</key>
+	<array>
+		<string>titans.png</string>
+		<string>Tennessee Titans</string>
+		<string>AFC South</string>
+		<string>Nashville, Tennessee</string>
+		<string>http://www.titansonline.com</string>
+	</array>
+	<key>Vikings</key>
+	<array>
+		<string>vikings.png</string>
+		<string>Minnesota Vikings</string>
+		<string>NFC North</string>
+		<string>Hubert H. Humphrey Metrodome</string>
+		<string>http://www.vikings.com</string>
+	</array>
+</dict>
+</plist>
